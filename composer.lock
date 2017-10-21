@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "7a0e1365412a5b8ac5c2034d2aa8c464",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -426,6 +426,49 @@
                 "psysh"
             ],
             "time": "2017-07-13T13:11:05+00:00"
+        },
+        {
+            "name": "lastguest/dynamic-string",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lastguest/DynamicString.git",
+                "reference": "2faff8c51c75d93d3f65113889a3e20432f3e57f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lastguest/DynamicString/zipball/2faff8c51c75d93d3f65113889a3e20432f3e57f",
+                "reference": "2faff8c51c75d93d3f65113889a3e20432f3e57f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefano Azzolini",
+                    "email": "lastguest@gmail.com"
+                }
+            ],
+            "description": "Template based random string generator",
+            "homepage": "https://github.com/lastguest/DynamicString",
+            "keywords": [
+                "generator",
+                "grammar",
+                "random",
+                "template"
+            ],
+            "time": "2015-01-13T23:23:04+00:00"
         },
         {
             "name": "league/flysystem",
