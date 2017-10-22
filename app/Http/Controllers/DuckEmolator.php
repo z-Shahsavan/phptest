@@ -25,19 +25,19 @@ class DuckEmolator
         }
         return view('ducks1', compact('dkarr'));
     }
-    public static function mallardDuck() {
+    private static function mallardDuck() {
         return new Duck("Mallard_Duck", " says: Quack! Quack!", 1);
     }
 
-    public static function decoyDuck() {
+    private static function decoyDuck() {
         return new Duck("Decoy_Duck", " is always silent!", 0);
     }
 
-    public static function rubberDuck() {
+    private static function rubberDuck() {
         return new Duck("Rubber_Duck", " says: Squeak!", 0);
     }
 
-    public static function redHeadDuck() {
+    private static function redHeadDuck() {
         return new Duck("Red_Head_Duck", " says: Quack! Quack!", 1);
     }
 }
